@@ -1,1 +1,3 @@
 pronote-api/* -linguist-vendored
+css/*.css linguist-generated
+css/*.map linguist-generated
