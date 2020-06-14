@@ -31,8 +31,8 @@ Simple Pronote Interface in Rust
 3. Open a second terminal tab and run: `cargo make watch`
 4. Open the API server in node.
   1. Go in the `pronote-api` folder
-  2. Open a terminal
-  3. Run `$ npm init` if you never ran before this server (This install dependencies)
+  2. Open a terminal in `pronote-api` folder
+  3. Run `$ npm install` if you never ran before this server (This install dependencies)
   4. Run `$ node .` to run the server
 5. If you see errors, or a new feature: Do a github issue or fork the project
 
