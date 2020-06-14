@@ -7,6 +7,6 @@
 /manager
 .idea
 /node_modules
-index.js 
-package-lock.json
+/index.js
+/package-lock.json
 /pronote-api/node_modules/

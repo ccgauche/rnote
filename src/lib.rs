@@ -52,7 +52,7 @@ fn update(msg: Msg, model: &mut Model, orders: &mut impl Orders<Msg>) {
         Msg::Connect => {
             model.connexion = true;
             //orders.skip(); // No need to rerender http://localhost:21727
-            let request = Request::new("https://4513084aab97.ngrok.io")
+            let request = Request::new("http://localhost:21727")
                 .method(Method::Post)
                 .text(format!(r#"{{
                     "type": "fetch",
