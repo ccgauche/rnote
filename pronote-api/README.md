@@ -1,0 +1,1 @@
+# This is a forked version of [Pronote API](https://github.com/Litarvan/pronote-api/)
