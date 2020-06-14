@@ -1,0 +1,43 @@
+div.login {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    div.form {
+        background-color: #151515;
+        padding: 2rem 5rem;
+        display: flex;
+        flex-direction: column;
+        max-height: 23rem;
+        min-height: 23rem;
+        margin: auto auto;
+        h2 {
+            font-size: 2rem;
+            font-weight: normal;
+            font-family: 'Open Sans';
+        }
+        label {
+            margin-top: 1rem;
+        }
+        input {
+            font-family: "Open Sans";
+            background-color: #222;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0.6rem 0rem;
+            color: #FFF;
+            &:focus {
+                outline: none;
+            }
+            &[type=checkbox] {
+                margin-right: 0.5rem;
+            }
+        }
+        button {
+            background-color: #3498db;
+            padding: 0.9rem 0rem;
+            color: #FFF;
+            border: none;
+            border-radius: 2px;
+        }
+    }
+}

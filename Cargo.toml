@@ -1,9 +1,9 @@
 [package]
 version = "0.1.0"
-name = "app_name"
+name = "rnote"
 repository = "https://github.com/seed-rs/seed-quickstart"
-authors = ["Your Name <email@address.com>"]
-description = "App Description"
+authors = ["ccgauche <laurent.gaucheron@gmail.com>"]
+description = "A pronote client written in Rust"
 categories = ["category"]
 license = "MIT"
 readme = "./README.md"
@@ -16,10 +16,13 @@ crate-type = ["cdylib"]
 wasm-bindgen-test = "0.3.12"
 
 [dependencies]
-# Referenced commit fixes base url and memory bugs in Seed 0.7.0
-# (https://github.com/seed-rs/seed/pull/454 + https://github.com/seed-rs/seed/pull/455).
-# Replace with "0.8.0" once the new Seed version is released.
 seed = { git = "https://github.com/seed-rs/seed", rev = "b25cf59" }
+js-sys = "*"
+lazy_static = "*"
+futures = "^0.3.4"
+serde = { version = "^1.0.85", features = ['derive'] }
+serde_json = "*"
+web-sys = {version = "*",features = ["CssStyleDeclaration"]}
 
 [profile.release]
 lto = true

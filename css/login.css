@@ -1,0 +1,60 @@
+div.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
+}
+
+div.login div.form {
+  background-color: #151515;
+  padding: 2rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 23rem;
+  min-height: 23rem;
+  margin: auto auto;
+}
+
+div.login div.form h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Open Sans';
+}
+
+div.login div.form label {
+  margin-top: 1rem;
+}
+
+div.login div.form input {
+  font-family: "Open Sans";
+  background-color: #222;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.6rem 0rem;
+  color: #FFF;
+}
+
+div.login div.form input:focus {
+  outline: none;
+}
+
+div.login div.form input[type=checkbox] {
+  margin-right: 0.5rem;
+}
+
+div.login div.form button {
+  background-color: #3498db;
+  padding: 0.9rem 0rem;
+  color: #FFF;
+  border: none;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=login.css.map */

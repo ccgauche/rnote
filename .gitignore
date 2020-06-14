@@ -1,3 +1,11 @@
 /target
 /pkg
-Cargo.lock
+/.github
+/pronote-api/node_modules
+/pronote-api/package-lock.json
+/pronote-api/app.js
+/manager
+.idea
+/node_modules
+index.js 
+package-lock.json
