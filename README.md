@@ -2,7 +2,7 @@
 
 > A pronote font-end for a simple and fast pronote.
 
-This project is open-source and can't be used for commercial purposes.
+This project is open-source.
 
 Simple Pronote Interface in Rust
 
