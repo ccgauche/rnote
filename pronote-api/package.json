@@ -16,7 +16,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "jsdom": "^11.7.0",
-    "node-forge": "0.6.33",
+    "node-forge": "0.10.0",
     "pako": "^1.0.6",
     "xml2js": "^0.4.19"
   }
